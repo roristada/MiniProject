@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { faPowerOff } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project';
+  faPowerOff = faPowerOff
+  logo:string = "assets/images/logo_kmutnb.png"
 }
